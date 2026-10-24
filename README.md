@@ -1,6 +1,6 @@
 # SwitchMorse
 
-A Morse code keyboard on the **Adafruit TRRS Trinkey** (#5954): plug in two
+A Morse code keyboard on the **[Adafruit TRRS Trinkey](https://www.adafruit.com/product/5954)** (#5954): plug in two
 assistive switches (dot and dash), and the Trinkey types — as an ordinary USB
 keyboard, so it works anywhere a keyboard does, with no software on the
 computer (including the Windows sign-in screen).
@@ -17,7 +17,7 @@ The codes are the same as **[AeroMorse](https://github.com/jlubin2001/AeroMorse)
 
 ## What you need
 
-- Adafruit TRRS Trinkey (#5954) with CircuitPython 10.2.1.
+- [Adafruit TRRS Trinkey](https://www.adafruit.com/product/5954) (#5954) with CircuitPython 10.2.1.
 - Two switches with mono 3.5 mm plugs and a TRRS splitter: dot = TIP,
   dash = SLEEVE, ground = RING_2. (`tools/switchmorse_pin_monitor.py` shows
   which contact each switch lands on — copy it to the Trinkey as `code.py`.)
