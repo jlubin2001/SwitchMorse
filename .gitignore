@@ -1,0 +1,12 @@
+# Files git should not keep
+
+# made by Python when it runs
+__pycache__/
+*.pyc
+
+# copies of earlier versions and of the Trinkey - git keeps the history now
+Backups/
+
+# Adafruit's mpy-cross program (download it again for the Trinkey's
+# CircuitPython version - see tools/build_device.py)
+tools/mpy-cross/
