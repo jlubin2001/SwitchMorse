@@ -18,9 +18,14 @@ The codes are the same as **[AeroMorse](https://github.com/jlubin2001/AeroMorse)
 ## What you need
 
 - [Adafruit TRRS Trinkey](https://www.adafruit.com/product/5954) (#5954) with CircuitPython 10.2.1.
-- Two switches with mono 3.5 mm plugs and a TRRS splitter: dot = TIP,
-  dash = SLEEVE, ground = RING_2. (`tools/switchmorse_pin_monitor.py` shows
-  which contact each switch lands on — copy it to the Trinkey as `code.py`.)
+- Two switches with 3.5 mm mono plugs and a **headset splitter cable** (one
+  4-pole TRRS plug to two sockets, **CTIA** type) — e.g. the
+  [MillSO headset splitter](https://www.amazon.com/dp/B071DMCZQF), or
+  [search for others](https://www.amazon.com/s?k=3.5mm+headset+splitter+CTIA+TRRS+male+to+2+female).
+  Dot switch → headphone socket (often green), dash switch → mic socket (often
+  pink). (Inside: dot = TIP, dash = SLEEVE, ground = RING_2.
+  `tools/switchmorse_pin_monitor.py` shows which contact each switch lands on —
+  copy it to the Trinkey as `code.py`.)
 
 ## Install
 
